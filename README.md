@@ -16,7 +16,7 @@ Os testes consistiram em extrair dados, calcular faturamento total, média diár
 | **⚡ Go + SQL Otimizado** | Agregação no Banco (pgx) | **1,16s** | **10,4x mais rápido** |
 
 
-🛠️ Stack Tecnológica
+## 🛠️ Stack Tecnológica
 
 ### 🛠️ Stack Tecnológica
 
@@ -28,7 +28,7 @@ Os testes consistiram em extrair dados, calcular faturamento total, média diár
 | **Monitoramento** | Mission Center (Gráficos de linha em tempo real) |
 
 
-💡 Principais Conclusões
+##💡 Principais Conclusões
 
 ### 🧠 Análise Técnica
 
