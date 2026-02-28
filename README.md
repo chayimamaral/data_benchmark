@@ -22,7 +22,9 @@ Monitoramento: Mission Center (Gráficos de linha em tempo real)
 
 💡 ##Principais Conclusões
 Eficiência de CPU: Enquanto o Python mantém um platô alto de consumo, o Go entrega um pulso rápido e libera o hardware. Isso é economia real de infraestrutura.
+
 Engenharia de Dados: A versão "Go + SQL" prova que delegar a agregação ao banco de dados reduz drasticamente o I/O e o uso de memória.
+
 Escalabilidade: O Go se consolida como a ferramenta superior para sistemas de missão crítica onde performance e custo são prioridades.
 
 ###Como reproduzir
