@@ -48,7 +48,7 @@ A performance bruta do Go reflete diretamente na economia de infraestrutura. Em 
 
 ### O impacto financeiro:
 1. **Serverless (Lambda/Functions):** O custo de execução é quase 10x menor, pois o tempo de faturamento cai de 12s para ~1s.
-2. **Densidade de Containers (K8s):** No seu **Fedora**, vimos que o Go consome uma fração da RAM do Python. No cluster (GKE/EKS), isso permite rodar muito mais instâncias no mesmo node, reduzindo a necessidade de instâncias caras.
+2. **Densidade de Containers (K8s):** No **Fedora**, o Go consomiu uma fração da RAM do Python. No cluster (GKE/EKS), isso permite rodar muito mais instâncias no mesmo node, reduzindo a necessidade de instâncias caras.
 3. **Data Transfer Out:** Ao processar no PostgreSQL 18.3, eliminamos o custo de trafegar 5 milhões de linhas entre o banco e a aplicação.
 
 
