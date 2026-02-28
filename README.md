@@ -27,23 +27,17 @@ Os testes consistiram em extrair dados, calcular faturamento total, média diár
 | **Banco de Dados** | PostgreSQL 18.3 🚀 |
 | **Monitoramento** | Mission Center (Gráficos de linha em tempo real) |
 
-Sistema Operacional: Fedora 43
-
-Linguagens: Go (Nativo) | Python (Pandas)
-
-Banco de Dados: PostgreSQL 18.3 🚀
-
-Monitoramento: Mission Center (Gráficos de linha em tempo real)
-
-
 
 💡 Principais Conclusões
 
-Eficiência de CPU: Enquanto o Python mantém um platô alto de consumo, o Go entrega um pulso rápido e libera o hardware. Isso é economia real de infraestrutura.
+### 🧠 Análise Técnica
 
-Engenharia de Dados: A versão "Go + SQL" prova que delegar a agregação ao banco de dados reduz drasticamente o I/O e o uso de memória.
+| Pilar | Observação do Benchmark |
+| :--- | :--- |
+| **Eficiência de CPU** | Enquanto o Python mantém um platô alto de consumo, o Go entrega um pulso rápido e libera o hardware. Isso é economia real de infraestrutura. |
+| **Engenharia de Dados** | A versão "Go + SQL" prova que delegar a agregação ao banco de dados reduz drasticamente o I/O e o uso de memória. |
+| **Escalabilidade** | O Go se consolida como a ferramenta superior para sistemas de missão crítica onde performance e custo são prioridades. |
 
-Escalabilidade: O Go se consolida como a ferramenta superior para sistemas de missão crítica onde performance e custo são prioridades.
 
 ###Como reproduzir
 ###Preparar o Banco:### Use o script de geração de massa de dados na pasta /scripts.
