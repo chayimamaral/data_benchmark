@@ -4,7 +4,7 @@ Este repositório contém os testes de performance que realizei processando 5 mi
 
 O objetivo foi comparar a eficiência do "padrão de mercado" (Python/Pandas) com a robustez e velocidade do Go.
 
-🚀 ##Resultados do Benchmark
+## 🚀 Resultados do Benchmark
 
 Os testes consistiram em extrair dados, calcular faturamento total, média diária e o ranking dos Top 5 produtos/dias.
 
