@@ -18,15 +18,12 @@ Os testes consistiram em extrair dados, calcular faturamento total, média diár
 
 ## 🛠️ Stack Tecnológica
 
-### 🛠️ Stack Tecnológica
-
 | Componente | Especificação |
 | :--- | :--- |
 | **Sistema Operacional** | Fedora 43 |
 | **Linguagens** | Go (Nativo) \| Python (Pandas) |
 | **Banco de Dados** | PostgreSQL 18.3 🚀 |
 | **Monitoramento** | Mission Center (Gráficos de linha em tempo real) |
-
 
 ##💡 Principais Conclusões
 
