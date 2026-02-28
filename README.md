@@ -8,14 +8,6 @@ O objetivo foi comparar a eficiência do "padrão de mercado" (Python/Pandas) co
 
 Os testes consistiram em extrair dados, calcular faturamento total, média diária e o ranking dos Top 5 produtos/dias.
 
-Tecnologia              Estratégia                Tempo Total        Performance vs. Python
-
-🐍 Python (Pandas)      Carregamento em Memória    "12,07s"           "1x" (Referência)
-
-🐹 Go (Nativo)          Processamento em Slices    "2,68s"            "4,5x mais rápido"
-
-⚡ Go + SQL Otimizado   Agregação no Banco (pgx)   "1,16s"            "10,4x mais rápido"
-
 
 | Tecnologia | Estratégia | Tempo Total | Performance vs. Python |
 | :--- | :--- | :--- | :--- |
