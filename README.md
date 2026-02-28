@@ -39,8 +39,14 @@ Os testes consistiram em extrair dados, calcular faturamento total, média diár
 | **Escalabilidade** | O Go se consolida como a ferramenta superior para sistemas de missão crítica onde performance e custo são prioridades. |
 
 
-###Como reproduzir
-###Preparar o Banco:### Use o script de geração de massa de dados na pasta /scripts.
-###Executar Python:### python processa.py
-###Executar Go (Memória):### go run processa.go
-###Executar Go (SQL Otimizado):### go run processa_sql.go
+### 🚀 Como Reproduzir o Benchmark
+
+| Passo | Ação | Comando / Local |
+| :--- | :--- | :--- |
+| **1** | Preparar o Banco | Use o script de geração de massa na pasta `/scripts` |
+| **2** | Executar Python | `python processa.py` |
+| **3** | Executar Go (Memória) | `go run processa.go` |
+| **4** | Executar Go (SQL) | `go run processa_sql.go` |
+
+
+
