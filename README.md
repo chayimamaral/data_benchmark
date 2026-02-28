@@ -1,4 +1,4 @@
-📊 #Benchmark de Processamento de Dados: Python vs. Go
+📊 #Benchmark de Processamento de Dados: Python vs. Go#
 
 Este repositório contém os testes de performance que realizei processando 5 milhões de registros de uma base PostgreSQL 18.3 rodando no Fedora 43. 
 
