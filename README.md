@@ -61,4 +61,5 @@ A performance bruta do Go reflete diretamente na economia de infraestrutura. Em 
 | **3** | Executar Go (Memória) | `go run processa.go` |
 | **4** | Executar Go (SQL) | `go run processa_sql.go` |
 
+Nota: O fonte processa_sql (Go com SQL) foca na performance de cálculo. Em um cenário de produção, os dados seriam serializados em JSON diretamente pelo PostgreSQL 18.3 para maximizar a vazão da API.
 
