@@ -17,6 +17,12 @@ Tecnologia              Estratégia                Tempo Total        Performanc
 ⚡ Go + SQL Otimizado   Agregação no Banco (pgx)   "1,16s"            "10,4x mais rápido"
 
 
+| Tecnologia | Estratégia | Tempo Total | Performance vs. Python |
+| :--- | :--- | :--- | :--- |
+| **🐍 Python (Pandas)** | Carregamento em Memória | **12,07s** | 1x (Referência) |
+| **🐹 Go (Nativo)** | Processamento em Slices | **2,68s** | 4,5x mais rápido |
+| **⚡ Go + SQL Otimizado** | Agregação no Banco (pgx) | **1,16s** | **10,4x mais rápido** |
+
 
 🛠️ Stack Tecnológica
 
