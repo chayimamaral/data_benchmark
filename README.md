@@ -46,4 +46,3 @@ Os testes consistiram em extrair dados, calcular faturamento total, média diár
 | **4** | Executar Go (SQL) | `go run processa_sql.go` |
 
 
-
